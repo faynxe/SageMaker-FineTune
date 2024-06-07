@@ -1,0 +1,14 @@
+base_job_name: accelerate-sagemaker-1
+compute_environment: AMAZON_SAGEMAKER
+distributed_type: DATA_PARALLEL
+ec2_instance_type: ml.p3.16xlarge
+iam_role_name: arn:aws:iam::259508681668:role/service-role/AmazonSageMaker-ExecutionRole-20210613T160452
+image_uri: null
+mixed_precision: fp16
+num_machines: 1
+profile: uche
+py_version: py38
+pytorch_version: 1.10.2
+region: us-east-1
+transformers_version: 4.17.0
+use_cpu: false
